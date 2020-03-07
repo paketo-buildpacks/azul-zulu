@@ -23,8 +23,8 @@ version = "{{.Version}}"
 id = "io.buildpacks.stacks.bionic"
 
 [metadata.default-versions]
-openjdk-jdk = "11.*"
-openjdk-jre = "11.*"
+jdk = "11.*"
+jre = "11.*"
 
 [[metadata.dependencies]]
 id      = "jre"
