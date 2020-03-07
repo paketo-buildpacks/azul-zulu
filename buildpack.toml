@@ -22,25 +22,116 @@ version = "{{.Version}}"
 [[stacks]]
 id = "io.buildpacks.stacks.bionic"
 
-# [[metadata.dependencies]]
-# id      = ""
-# name    = ""
-# version = ""
-# uri     = ""
-# sha256  = ""
-# stacks  = [ "io.buildpacks.stacks.bionic" ]
+[metadata.default-versions]
+openjdk-jdk = "11.*"
+openjdk-jre = "11.*"
 
-#   [[metadata.dependencies.licenses]]
-#   type = "<TYPE>"
-#   uri  = "<URI>"
+[[metadata.dependencies]]
+id      = "jre"
+name    = "Azul Zulu JRE"
+version = "8.0.242"
+uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-8/8u242/zulu-8-azure-jre_8.44.0.9-8.0.242-linux_x64.tar.gz"
+sha256  = "placeholder"
+stacks  = [ "io.buildpacks.stacks.bionic" ]
+
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+
+[[metadata.dependencies]]
+id      = "jre"
+name    = "Azul Zulu JRE"
+version = "11.0.6"
+uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-11/11.0.6/zulu-11-azure-jre_11.37.17-11.0.6-linux_x64.tar.gz"
+sha256  = "placeholder"
+stacks  = [ "io.buildpacks.stacks.bionic" ]
+
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+
+[[metadata.dependencies]]
+id      = "jre"
+name    = "Azul Zulu JRE"
+version = "13.0.2"
+uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-13/13.0.2/zulu-13-azure-jre_13.29.9-13.0.2-linux_x64.tar.gz"
+sha256  = "placeholder"
+stacks  = [ "io.buildpacks.stacks.bionic" ]
+
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+
+[[metadata.dependencies]]
+id      = "jdk"
+name    = "Azul Zulu JDK"
+version = "8.0.242"
+uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-8/8u242/zulu-8-azure-jdk_8.44.0.9-8.0.242-linux_x64.tar.gz"
+sha256  = "placeholder"
+stacks  = [ "io.buildpacks.stacks.bionic" ]
+
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+
+[[metadata.dependencies]]
+id      = "jdk"
+name    = "Azul Zulu JDK"
+version = "11.0.6"
+uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-11/11.0.6/zulu-11-azure-jdk_11.37.17-11.0.6-linux_x64.tar.gz"
+sha256  = "placeholder"
+stacks  = [ "io.buildpacks.stacks.bionic" ]
+
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+
+[[metadata.dependencies]]
+id      = "jdk"
+name    = "Azul Zulu JDK"
+version = "13.0.2"
+uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-13/13.0.2/zulu-13-azure-jdk_13.29.9-13.0.2-linux_x64.tar.gz"
+sha256  = "placeholder"
+stacks  = [ "io.buildpacks.stacks.bionic" ]
+
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+
+[[metadata.dependencies]]
+id      = "jvmkill"
+name    = "JVMKill Agent"
+version = "1.16.0"
+uri     = "https://java-buildpack.cloudfoundry.org/jvmkill/bionic/x86_64/jvmkill-1.16.0-RELEASE.so"
+sha256  = "placeholder"
+stacks  = [ "io.buildpacks.stacks.bionic" ]
+
+  [[metadata.dependencies.licenses]]
+  type = "Apache-2.0"
+  uri  = "https://github.com/cloudfoundry/jvmkill/blob/master/LICENSE"
+
+[[metadata.dependencies]]
+id      = "memory-calculator"
+name    = "Memory Calculator"
+version = "4.0.0"
+uri     = "https://java-buildpack.cloudfoundry.org/memory-calculator/bionic/x86_64/memory-calculator-4.0.0.tgz"
+sha256  = "placeholder"
+stacks  = [ "io.buildpacks.stacks.bionic" ]
+
+  [[metadata.dependencies.licenses]]
+  type = "Apache-2.0"
+  uri  = "https://github.com/cloudfoundry/java-buildpack-memory-calculator/blob/master/LICENSE"
 
 [metadata]
-pre_package   = "scripts/build.sh"
-include_files = [
+pre-package   = "scripts/build.sh"
+include-files = [
   "LICENSE",
   "NOTICE",
   "README.md",
   "bin/build",
+  "bin/class-counter",
   "bin/detect",
+  "bin/link-local-dns",
+  "bin/security-providers-configurer",
   "buildpack.toml",
 ]
