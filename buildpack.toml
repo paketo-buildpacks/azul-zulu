@@ -91,7 +91,7 @@ id      = "jdk"
 name    = "Azul Zulu JDK"
 version = "13.0.2"
 uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-13/13.0.2/zulu-13-azure-jdk_13.29.9-13.0.2-linux_x64.tar.gz"
-sha256  = "placeholder"
+sha256  = "5600010ac8a5cfd6ddb6daf810473546c1b873d5d227912fe691478789d3c938"
 stacks  = [ "io.buildpacks.stacks.bionic" ]
 
   [[metadata.dependencies.licenses]]
