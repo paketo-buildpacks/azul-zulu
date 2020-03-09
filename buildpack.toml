@@ -31,7 +31,7 @@ id      = "jre"
 name    = "Azul Zulu JRE"
 version = "8.0.242"
 uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-8/8u242/zulu-8-azure-jre_8.44.0.9-8.0.242-linux_x64.tar.gz"
-sha256  = "ff4a0047952f886d03d3bd77d88eb0f8e4d3ba9f3d08e74815ee6f23393dd44c"
+sha256  = "placeholder"
 stacks  = [ "io.buildpacks.stacks.bionic" ]
 
   [[metadata.dependencies.licenses]]
@@ -43,7 +43,7 @@ id      = "jre"
 name    = "Azul Zulu JRE"
 version = "11.0.6"
 uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-11/11.0.6/zulu-11-azure-jre_11.37.17-11.0.6-linux_x64.tar.gz"
-sha256  = "35b0d03e779253c82a1ad9ec25c07b2541f04909d6e94e9864744a8d846edaba"
+sha256  = "placeholder"
 stacks  = [ "io.buildpacks.stacks.bionic" ]
 
   [[metadata.dependencies.licenses]]
@@ -55,7 +55,7 @@ id      = "jre"
 name    = "Azul Zulu JRE"
 version = "13.0.2"
 uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-13/13.0.2/zulu-13-azure-jre_13.29.9-13.0.2-linux_x64.tar.gz"
-sha256  = "cf78d16b5f91934e7b86c558add943fe683c751e2972394567b0901af5da4b0d"
+sha256  = "placeholder"
 stacks  = [ "io.buildpacks.stacks.bionic" ]
 
   [[metadata.dependencies.licenses]]
@@ -67,7 +67,7 @@ id      = "jdk"
 name    = "Azul Zulu JDK"
 version = "8.0.242"
 uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-8/8u242/zulu-8-azure-jdk_8.44.0.9-8.0.242-linux_x64.tar.gz"
-sha256  = "541769f12fe7042b8b5f8eb48cdb33dd8230ddb806ad4ab78fcc8125a237d70b"
+sha256  = "placeholder"
 stacks  = [ "io.buildpacks.stacks.bionic" ]
 
   [[metadata.dependencies.licenses]]
@@ -79,7 +79,7 @@ id      = "jdk"
 name    = "Azul Zulu JDK"
 version = "11.0.6"
 uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-11/11.0.6/zulu-11-azure-jdk_11.37.17-11.0.6-linux_x64.tar.gz"
-sha256  = "d3ebf741b0c867fe72d3ca8c7245a7397e5a18a41b9a1aa6b4d72dd325f50838"
+sha256  = "placeholder"
 stacks  = [ "io.buildpacks.stacks.bionic" ]
 
   [[metadata.dependencies.licenses]]
@@ -91,7 +91,7 @@ id      = "jdk"
 name    = "Azul Zulu JDK"
 version = "13.0.2"
 uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-13/13.0.2/zulu-13-azure-jdk_13.29.9-13.0.2-linux_x64.tar.gz"
-sha256  = "5600010ac8a5cfd6ddb6daf810473546c1b873d5d227912fe691478789d3c938"
+sha256  = "placeholder"
 stacks  = [ "io.buildpacks.stacks.bionic" ]
 
   [[metadata.dependencies.licenses]]
@@ -103,7 +103,7 @@ id      = "jvmkill"
 name    = "JVMKill Agent"
 version = "1.16.0"
 uri     = "https://java-buildpack.cloudfoundry.org/jvmkill/bionic/x86_64/jvmkill-1.16.0-RELEASE.so"
-sha256  = "a3092627b082cb3cdbbe4b255d35687126aa604e6b613dcda33be9f7e1277162"
+sha256  = "placeholder"
 stacks  = [ "io.buildpacks.stacks.bionic" ]
 
   [[metadata.dependencies.licenses]]
@@ -115,7 +115,7 @@ id      = "memory-calculator"
 name    = "Memory Calculator"
 version = "4.0.0"
 uri     = "https://java-buildpack.cloudfoundry.org/memory-calculator/bionic/x86_64/memory-calculator-4.0.0.tgz"
-sha256  = "90d40eab6959a7b4059c6409c4505040e8a04f75a481f7282e53430df3edda3e"
+sha256  = "placeholder"
 stacks  = [ "io.buildpacks.stacks.bionic" ]
 
   [[metadata.dependencies.licenses]]
