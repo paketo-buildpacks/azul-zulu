@@ -55,7 +55,7 @@ id      = "jre"
 name    = "Azul Zulu JRE"
 version = "13.0.2"
 uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-13/13.0.2/zulu-13-azure-jre_13.29.9-13.0.2-linux_x64.tar.gz"
-sha256  = "placeholder"
+sha256  = "cf78d16b5f91934e7b86c558add943fe683c751e2972394567b0901af5da4b0d"
 stacks  = [ "io.buildpacks.stacks.bionic" ]
 
   [[metadata.dependencies.licenses]]
