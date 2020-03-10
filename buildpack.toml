@@ -15,7 +15,7 @@
 api = "0.2"
 
 [buildpack]
-id      = "paketoio/azul-zulu"
+id      = "paketo-buildpacks/azul-zulu"
 name    = "Paketo Azul Zulu Buildpack"
 version = "{{.Version}}"
 
