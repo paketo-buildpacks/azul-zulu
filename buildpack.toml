@@ -28,9 +28,9 @@ java = "11.*"
 [[metadata.dependencies]]
 id      = "jre"
 name    = "Azul Zulu JRE"
-version = "8.0.242"
-uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-8/8u242/zulu-8-azure-jre_8.44.0.11-8.0.242-linux_x64.tar.gz"
-sha256  = "62f6dede3ba34318f33311725636d02056f2a8303cb82bb31eed465f11d61987"
+version = "8.0.252"
+uri     = "https://cdn.azul.com/zulu/bin/zulu8.46.0.19-ca-jre8.0.252-linux_x64.tar.gz"
+sha256  = "7700baf0019bdaac7da95e11ad7e36752a90b117214e75c270c73c4a362c6d5a"
 stacks  = [ "io.buildpacks.stacks.bionic" ]
 
   [[metadata.dependencies.licenses]]
