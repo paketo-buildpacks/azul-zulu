@@ -88,9 +88,9 @@ stacks  = [ "io.buildpacks.stacks.bionic" ]
 [[metadata.dependencies]]
 id      = "jdk"
 name    = "Azul Zulu JDK"
-version = "14.0.0"
-uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-14/14/zulu-14-azure-jdk_14.27.1-14-linux_x64.tar.gz"
-sha256  = "8afa1a477ee2ca3dcc0ff78f94f976fbce4580a04c98248be7eda2a79efe2e21"
+version = "14.0.1"
+uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-14/14.0.1/zulu-14-azure-jdk_14.28.21-14.0.1-linux_x64.tar.gz"
+sha256  = "e8d4385183a181cfde1490bd0f0e1bb74e40cb2c58a31bc40f83396b32d36c63"
 stacks  = [ "io.buildpacks.stacks.bionic" ]
 
   [[metadata.dependencies.licenses]]
