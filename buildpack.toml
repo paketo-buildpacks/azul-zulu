@@ -22,6 +22,9 @@ version = "{{.version}}"
 [[stacks]]
 id = "io.buildpacks.stacks.bionic"
 
+[[stacks]]
+id = "org.cloudfoundry.stacks.cflinuxfs3"
+
 [metadata.default-versions]
 java = "11.*"
 
@@ -31,7 +34,7 @@ name    = "Azul Zulu JRE"
 version = "8.0.252"
 uri     = "https://cdn.azul.com/zulu/bin/zulu8.46.0.19-ca-jre8.0.252-linux_x64.tar.gz"
 sha256  = "7700baf0019bdaac7da95e11ad7e36752a90b117214e75c270c73c4a362c6d5a"
-stacks  = [ "io.buildpacks.stacks.bionic" ]
+stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
   type = "GPL-2.0 WITH Classpath-exception-2.0"
@@ -43,7 +46,7 @@ name    = "Azul Zulu JRE"
 version = "11.0.7"
 uri     = "https://cdn.azul.com/zulu/bin/zulu11.39.15-ca-fx-jre11.0.7-linux_x64.tar.gz"
 sha256  = "b7eb944998f183466c2c795ded08c32d64025c695b6e47a19d63de7539686135"
-stacks  = [ "io.buildpacks.stacks.bionic" ]
+stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
   type = "GPL-2.0 WITH Classpath-exception-2.0"
@@ -55,7 +58,7 @@ name    = "Azul Zulu JRE"
 version = "14.0.1"
 uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-14/14.0.1/zulu-14-azure-jre_14.28.21-14.0.1-linux_x64.tar.gz"
 sha256  = "53c58655cefcfc66494393bc50fb6fc73ccd0bd9493e92cc72eaee6f20d2215b"
-stacks  = [ "io.buildpacks.stacks.bionic" ]
+stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
   type = "GPL-2.0 WITH Classpath-exception-2.0"
@@ -67,7 +70,7 @@ name    = "Azul Zulu JDK"
 version = "8.0.252"
 uri     = "https://cdn.azul.com/zulu/bin/zulu8.46.0.19-ca-jdk8.0.252-linux_x64.tar.gz"
 sha256  = "ab8a4194006f12dd48bf7f176ca7879706d3f8fc7d3208313a46cc9ee2270716"
-stacks  = [ "io.buildpacks.stacks.bionic" ]
+stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
   type = "GPL-2.0 WITH Classpath-exception-2.0"
@@ -79,7 +82,7 @@ name    = "Azul Zulu JDK"
 version = "11.0.7"
 uri     = "https://cdn.azul.com/zulu/bin/zulu11.39.15-ca-jdk11.0.7-linux_x64.tar.gz"
 sha256  = "df0de67998ac0c58b3c9e83c86e2a81daca05dc5adc189d942bc5d3f4691e749"
-stacks  = [ "io.buildpacks.stacks.bionic" ]
+stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
   type = "GPL-2.0 WITH Classpath-exception-2.0"
@@ -91,7 +94,7 @@ name    = "Azul Zulu JDK"
 version = "14.0.1"
 uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-14/14.0.1/zulu-14-azure-jdk_14.28.21-14.0.1-linux_x64.tar.gz"
 sha256  = "e8d4385183a181cfde1490bd0f0e1bb74e40cb2c58a31bc40f83396b32d36c63"
-stacks  = [ "io.buildpacks.stacks.bionic" ]
+stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
   type = "GPL-2.0 WITH Classpath-exception-2.0"
@@ -103,7 +106,7 @@ name    = "JVMKill Agent"
 version = "1.16.0"
 uri     = "https://github.com/cloudfoundry/jvmkill/releases/download/v1.16.0.RELEASE/jvmkill-1.16.0-RELEASE.so"
 sha256  = "a3092627b082cb3cdbbe4b255d35687126aa604e6b613dcda33be9f7e1277162"
-stacks  = [ "io.buildpacks.stacks.bionic" ]
+stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
   type = "Apache-2.0"
@@ -115,7 +118,7 @@ name    = "Memory Calculator"
 version = "4.0.0"
 uri     = "https://github.com/cloudfoundry/java-buildpack-memory-calculator/releases/download/v4.0.0/memory-calculator-4.0.0.tgz"
 sha256  = "90d40eab6959a7b4059c6409c4505040e8a04f75a481f7282e53430df3edda3e"
-stacks  = [ "io.buildpacks.stacks.bionic" ]
+stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
   type = "Apache-2.0"
