@@ -53,9 +53,9 @@ build       = true
 [[metadata.dependencies]]
 id      = "jre"
 name    = "Azul Zulu JRE"
-version = "8.0.252"
-uri     = "https://cdn.azul.com/zulu/bin/zulu8.46.0.19-ca-jre8.0.252-linux_x64.tar.gz"
-sha256  = "7700baf0019bdaac7da95e11ad7e36752a90b117214e75c270c73c4a362c6d5a"
+version = "8.0.261"
+uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-8/8u261/zulu-8-azure-jre_8.47.0.15-8.0.261-linux_x64.tar.gz"
+sha256  = "d337f672513379ea85a209b686f4966181dbb3a9c23a001dc5fd4fdc377f35db"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
