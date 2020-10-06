@@ -118,9 +118,9 @@ uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
 [[metadata.dependencies]]
 id      = "jre"
 name    = "Azul Zulu JRE"
-version = "14.0.0"
-uri     = "placeholder"
-sha256  = "placeholder"
+version = "14.0.2"
+uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-14/14.0.2/zulu-14-azure-jre_14.29.23-14.0.2-linux_x64.tar.gz"
+sha256  = "08567f5beafc86251795abbdbfc82c3ab7572873f593824937a85e3644cef07a"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
