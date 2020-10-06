@@ -58,9 +58,9 @@ launch      = true
 [[metadata.dependencies]]
 id      = "jdk"
 name    = "Azul Zulu JDK"
-version = "8.0.0"
-uri     = "placeholder"
-sha256  = "placeholder"
+version = "8.0.265"
+uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-8/8u265/zulu-8-azure-jdk_8.48.0.53-8.0.265-linux_x64.tar.gz"
+sha256  = "a9d05f5cbb3547f7eaf5635eff2c0ebbdae5bcc5239ad97d10bcd92d03660e9e"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
 [[metadata.dependencies.licenses]]
@@ -70,9 +70,9 @@ uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
 [[metadata.dependencies]]
 id      = "jre"
 name    = "Azul Zulu JRE"
-version = "8.0.0"
-uri     = "placeholder"
-sha256  = "placeholder"
+version = "8.0.265"
+uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-8/8u265/zulu-8-azure-jre_8.48.0.53-8.0.265-linux_x64.tar.gz"
+sha256  = "d41aed0151356f61767458d23a509d770e22a9d1f82e5dd173ee1dc353cab5fa"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
