@@ -143,8 +143,8 @@ uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
 id      = "jre"
 name    = "Azul Zulu JRE"
 version = "15.0.0"
-uri     = "placeholder"
-sha256  = "placeholder"
+uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-15/15/zulu-15-azure-jre_15.27.17-15.0.0-linux_x64.tar.gz"
+sha256  = "9e4f10f984b70d25b215e1f0b4f0802782d59ddff54d5bc986efbd793a58c5fb"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
