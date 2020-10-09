@@ -63,9 +63,9 @@ uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-8/8u265/zulu-8-a
 sha256  = "a9d05f5cbb3547f7eaf5635eff2c0ebbdae5bcc5239ad97d10bcd92d03660e9e"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
-[[metadata.dependencies.licenses]]
-type = "GPL-2.0 WITH Classpath-exception-2.0"
-uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
 
 [[metadata.dependencies]]
 id      = "jre"
@@ -87,9 +87,9 @@ uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-11/11.0.8/zulu-1
 sha256  = "14e60e8750d21450c683bf3dd3ddfab1b3bca6026db402441a12a7fc407222f1"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
-[[metadata.dependencies.licenses]]
-type = "GPL-2.0 WITH Classpath-exception-2.0"
-uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
 
 [[metadata.dependencies]]
 id      = "jre"
@@ -111,9 +111,9 @@ uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-14/14.0.2/zulu-1
 sha256  = "d5aff1f668ebf60926d7f940c05184c4420081e31edf2ab76580702ea9c6cbb0"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
-[[metadata.dependencies.licenses]]
-type = "GPL-2.0 WITH Classpath-exception-2.0"
-uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
 
 [[metadata.dependencies]]
 id      = "jre"
@@ -135,9 +135,9 @@ uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-15/15/zulu-15-az
 sha256  = "191055ea631518d3621274f062ef7733554b761b2349787a30dfbaf57ee43ff2"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
-[[metadata.dependencies.licenses]]
-type = "GPL-2.0 WITH Classpath-exception-2.0"
-uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
 
 [[metadata.dependencies]]
 id      = "jre"
