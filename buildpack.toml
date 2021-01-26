@@ -106,9 +106,9 @@ stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" 
 [[metadata.dependencies]]
 id      = "jdk"
 name    = "Azul Zulu JDK"
-version = "15.0.1"
-uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-15/15.0.1/zulu-15-azure-jdk_15.28.51-15.0.1-linux_x64.tar.gz"
-sha256  = "8c3a540fed9ac046b395e73538527b3545cfcbf19d2680c82db5897db03047f3"
+version = "15.0.2"
+uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-15/15.0.2/zulu-15-azure-jdk_15.29.15-15.0.2-linux_x64.tar.gz"
+sha256  = "171433adcafcc2432b3cb45bd16170329fa85a2d1a072115967e68a7341137f7"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
