@@ -123,6 +123,27 @@ uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-15/15.0.2/zulu-1
 sha256  = "f6d3eacf9744c6a0a18b1aee77c0fec4dfde889edb2e58730d5486c8a8a0c94e"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
+
+[[metadata.dependencies]]
+id      = "jdk"
+name    = "Azul Zulu JDK"
+version = "16.0.0"
+uri     = "placeholder"
+sha256  = "placeholder"
+stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
+
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+
+[[metadata.dependencies]]
+id      = "jre"
+name    = "Azul Zulu JRE"
+version = "placeholder"
+uri     = "placeholder"
+sha256  = "f6d3eacf9744c6a0a18b1aee77c0fec4dfde889edb2e58730d5486c8a8a0c94e"
+stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
+
   [[metadata.dependencies.licenses]]
   type = "GPL-2.0 WITH Classpath-exception-2.0"
   uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
