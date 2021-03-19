@@ -140,8 +140,8 @@ stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" 
 id      = "jre"
 name    = "Azul Zulu JRE"
 version = "16.0.0"
-uri     = "placeholder"
-sha256  = "placeholder"
+uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-16/16/zulu-16-azure-jre_16.28.11-16.0.0-linux_x64.tar.gz"
+sha256  = "8ee5d8c547b08448dc464f32329d5aa56827e0c675fd1f1e89f62e36fc7c2e8d"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
