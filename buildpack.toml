@@ -139,9 +139,9 @@ stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" 
 [[metadata.dependencies]]
 id      = "jre"
 name    = "Azul Zulu JRE"
-version = "placeholder"
+version = "16.0.0"
 uri     = "placeholder"
-sha256  = "f6d3eacf9744c6a0a18b1aee77c0fec4dfde889edb2e58730d5486c8a8a0c94e"
+sha256  = "placeholder"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
