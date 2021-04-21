@@ -106,27 +106,6 @@ stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" 
 [[metadata.dependencies]]
 id      = "jdk"
 name    = "Azul Zulu JDK"
-version = "15.0.3"
-uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-15/15.0.3/zulu-15-azure-jdk_15.32.15-15.0.3-linux_x64.tar.gz"
-sha256  = "fe843478aa49f915d2a43d48c67391d659f0be456c054e1c17d2014185cc850e"
-stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
-
-  [[metadata.dependencies.licenses]]
-  type = "GPL-2.0 WITH Classpath-exception-2.0"
-  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
-
-[[metadata.dependencies]]
-id      = "jre"
-name    = "Azul Zulu JRE"
-version = "15.0.3"
-uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-15/15.0.3/zulu-15-azure-jre_15.32.15-15.0.3-linux_x64.tar.gz"
-sha256  = "fdcec1269519eab0270992e42bb22305b48ae02f4d0c938049df754e808d4cf6"
-stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
-
-
-[[metadata.dependencies]]
-id      = "jdk"
-name    = "Azul Zulu JDK"
 version = "16.0.0"
 uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-16/16/zulu-16-azure-jdk_16.28.11-16.0.0-linux_x64.tar.gz"
 sha256  = "fb0bb87380845fa9dfd3f9fe5dce516187b02117c8d0b4ffa80dfa1c4a4a56f5"
