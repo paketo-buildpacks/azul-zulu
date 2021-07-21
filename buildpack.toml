@@ -64,9 +64,9 @@ launch      = true
 [[metadata.dependencies]]
 id      = "jdk"
 name    = "Azul Zulu JDK"
-version = "8.0.292"
-uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-8/8u292/zulu-8-azure-jdk_8.54.0.21-8.0.292-linux_x64.tar.gz"
-sha256  = "5b3b996298009b2fb05d8dd6499ae3e5c8c81f40692e77c1ddef949af4d32979"
+version = "8.0.302"
+uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-8/8u302/zulu-8-azure-jdk_8.56.0.21-8.0.302-linux_x64.tar.gz"
+sha256  = "d87f2a86614cc05c87449f015cbb48c26b48654d4eaed54dabda2fc42758b624"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
