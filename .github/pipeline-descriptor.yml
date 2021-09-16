@@ -59,9 +59,17 @@ dependencies:
   with:
     type:    headfull
     version: "16"
-- id:   jvmkill
-  uses: docker://ghcr.io/paketo-buildpacks/actions/github-release-dependency:main
+- name:            JDK 17
+  id:              jdk
+  version_pattern: "17\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
   with:
-    owner:      cloudfoundry
-    repository: jvmkill
-    token:      ${{ secrets.JAVA_GITHUB_TOKEN }}
+    type:    jdk
+    version: "17"
+- name:            JRE 17
+  id:              jre
+  version_pattern: "17\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
+  with:
+    type:    headfull
+    version: "17"
