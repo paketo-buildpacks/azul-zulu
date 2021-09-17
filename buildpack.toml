@@ -128,8 +128,8 @@ stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 id      = "jdk"
 name    = "Azul Zulu JDK"
 version = "16.0.2"
-uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-16/16.0.2/zulu-16-azure-jdk_16.32.15-16.0.2-linux_x64.tar.gz"
-sha256  = "5bea08e4c4aa89a20aee42136e952e5a5e81c72728d90fde99cb22bafcc51347"
+uri     = "https://cdn.azul.com/zulu/bin/zulu16.32.15-ca-jdk16.0.2-linux_x64.tar.gz"
+sha256  = "8eb9764ed708d6953bf77e8f04c03260801e87a1fe7b85b41648dab2e99ff31b"
 stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 
   [[metadata.dependencies.licenses]]
