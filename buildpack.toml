@@ -80,8 +80,8 @@ launch      = true
 id      = "jdk"
 name    = "Azul Zulu JDK"
 version = "8.0.302"
-uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-8/8u302/zulu-8-azure-jdk_8.56.0.21-8.0.302-linux_x64.tar.gz"
-sha256  = "d87f2a86614cc05c87449f015cbb48c26b48654d4eaed54dabda2fc42758b624"
+uri     = "https://cdn.azul.com/zulu/bin/zulu8.56.0.21-ca-jdk8.0.302-linux_x64.tar.gz"
+sha256  = "f6e6946713575aeeadfb75bd2eb245669e59ce4f797880490beb53a6c5b7138a"
 stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 
   [[metadata.dependencies.licenses]]
@@ -92,8 +92,8 @@ stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 id      = "jre"
 name    = "Azul Zulu JRE"
 version = "8.0.302"
-uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-8/8u302/zulu-8-azure-jre_8.56.0.21-8.0.302-linux_x64.tar.gz"
-sha256  = "9ab32ad2c60d9611bd8761b5de7d1134ea80f6a4d8cd3300f4dc91e00289aaf7"
+uri     = "https://cdn.azul.com/zulu/bin/zulu8.56.0.21-ca-jre8.0.302-linux_x64.tar.gz"
+sha256  = "9a0d0eb753c3592faca48d5e9b84bcf5b92301fd09081b191623cb8e478349d7"
 stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 
   [[metadata.dependencies.licenses]]
