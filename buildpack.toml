@@ -164,8 +164,8 @@ stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 id      = "jre"
 name    = "Azul Zulu JRE"
 version = "17.0.0"
-uri     = "https://repos.azul.com/azure-only/zulu/packages/zulu-17/17.0.0/zulu-17-azure-jre_17.32.15-17.0.0-linux_x64.tar.gz"
-sha256  = "bad"
+uri     = "https://cdn.azul.com/zulu/bin/zulu17.28.13-ca-fx-jre17.0.0-linux_x64.tar.gz"
+sha256  = "4827890d3b3210bbee7db9c6c1548143b924ba585b930c194550d81deb5ce847"
 stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 
   [[metadata.dependencies.licenses]]
