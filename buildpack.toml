@@ -116,8 +116,8 @@ stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 id      = "jre"
 name    = "Azul Zulu JRE"
 version = "11.0.12"
-uri     = "https://cdn.azul.com/zulu/bin/zulu11.50.19-ca-jre11.0.12-linux_x64.tar.gz"
-sha256  = "c4a41ea4b963796d5a105d6ef015003e3a0aaea830733c4755b22a507f17e741"
+uri     = "https://cdn.azul.com/zulu/bin/zulu11.50.19-ca-fx-jre11.0.12-linux_x64.tar.gz"
+sha256  = "34cabf8c22ed304533a52607afcac5b48d3596a173e039939e63e89da85dcbe9"
 stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 
   [[metadata.dependencies.licenses]]
