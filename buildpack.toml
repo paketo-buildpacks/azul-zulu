@@ -60,6 +60,48 @@ default     = ""
 launch      = true
 
 [[metadata.configurations]]
+name        = "BPL_JAVA_NMT_ENABLED"
+description = "enables Java Native Memory Tracking (NMT)"
+default     = "true"
+launch      = true
+
+[[metadata.configurations]]
+name        = "BPL_JAVA_NMT_LEVEL"
+description = "configure level of NMT, summary or detail"
+default     = "summary"
+launch      = true
+
+[[metadata.configurations]]
+name        = "BPL_JMX_ENABLED"
+description = "enables Java Management Extensions (JMX)"
+default     = "false"
+launch      = true
+
+[[metadata.configurations]]
+name        = "BPL_JMX_PORT"
+description = "configure the JMX port"
+default     = "5000"
+launch      = true
+
+[[metadata.configurations]]
+name        = "BPL_DEBUG_ENABLED"
+description = "enables Java remote debugging support"
+default     = "false"
+launch      = true
+
+[[metadata.configurations]]
+name        = "BPL_DEBUG_PORT"
+description = "configure the remote debugging port"
+default     = "8000"
+launch      = true
+
+[[metadata.configurations]]
+name        = "BPL_DEBUG_SUSPEND"
+description = "configure whether to suspend execution until a debugger has attached"
+default     = "false"
+launch      = true
+
+[[metadata.configurations]]
 name        = "BP_JVM_VERSION"
 description = "the Java version"
 default     = "11"
@@ -149,16 +191,29 @@ stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
   uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
 
 [[metadata.dependencies]]
-id      = "jvmkill"
-name    = "JVMKill Agent"
-version = "1.16.0"
-uri     = "https://github.com/cloudfoundry/jvmkill/releases/download/v1.16.0.RELEASE/jvmkill-1.16.0-RELEASE.so"
-sha256  = "a3092627b082cb3cdbbe4b255d35687126aa604e6b613dcda33be9f7e1277162"
+id      = "jdk"
+name    = "Azul Zulu JDK"
+version = "17.0.0"
+uri     = "https://cdn.azul.com/zulu/bin/zulu17.28.13-ca-fx-jdk17.0.0-linux_x64.tar.gz"
+sha256  = "b02e69ab5773525e2448a4ec337637aa33cba579d0960408c19c7b3dc0d2bd30"
 stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
 
   [[metadata.dependencies.licenses]]
-  type = "Apache-2.0"
-  uri  = "https://github.com/cloudfoundry/jvmkill/blob/main/LICENSE"
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+
+[[metadata.dependencies]]
+id      = "jre"
+name    = "Azul Zulu JRE"
+version = "17.0.0"
+uri     = "https://cdn.azul.com/zulu/bin/zulu17.28.13-ca-fx-jre17.0.0-linux_x64.tar.gz"
+sha256  = "4827890d3b3210bbee7db9c6c1548143b924ba585b930c194550d81deb5ce847"
+stacks  = [ "io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*" ]
+
+  [[metadata.dependencies.licenses]]
+  type = "GPL-2.0 WITH Classpath-exception-2.0"
+  uri  = "https://openjdk.java.net/legal/gplv2+ce.html"
+
 
 [metadata]
 pre-package   = "scripts/build.sh"
