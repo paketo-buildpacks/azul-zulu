@@ -164,9 +164,9 @@ api = "0.6"
   [[metadata.dependencies]]
     id = "jdk"
     name = "Azul Zulu JDK"
-    sha256 = "8eb9764ed708d6953bf77e8f04c03260801e87a1fe7b85b41648dab2e99ff31b"
+    sha256 = "edc7f4b8eddfd3cebf5ad6a4223ad7cf9bd67016eddd2baaa3182688cc93fa5f"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu16.32.15-ca-jdk16.0.2-linux_x64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu16.32.15-ca-fx-jdk16.0.2-linux_x64.tar.gz"
     version = "16.0.2"
 
     [[metadata.dependencies.licenses]]
