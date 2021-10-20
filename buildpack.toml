@@ -140,10 +140,10 @@ api = "0.6"
   [[metadata.dependencies]]
     id = "jdk"
     name = "Azul Zulu JDK"
-    sha256 = "b8e8a63b79bc312aa90f3558edbea59e71495ef1a9c340e38900dd28a1c579f3"
+    sha256 = "77a126669b26b3a89e0117b0f28cddfcd24fcd7699b2c1d35f921487148b9a9f"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu11.50.19-ca-jdk11.0.12-linux_x64.tar.gz"
-    version = "11.0.12"
+    uri = "https://cdn.azul.com/zulu/bin/zulu11.52.13-ca-jdk11.0.13-linux_x64.tar.gz"
+    version = "11.0.13"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
