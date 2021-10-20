@@ -128,10 +128,10 @@ api = "0.6"
   [[metadata.dependencies]]
     id = "jre"
     name = "Azul Zulu JRE"
-    sha256 = "9a0d0eb753c3592faca48d5e9b84bcf5b92301fd09081b191623cb8e478349d7"
+    sha256 = "e1e893f7b2b2c3574761ee1541aa170809865855c2a0879c97cce0a449297c6f"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu8.56.0.21-ca-jre8.0.302-linux_x64.tar.gz"
-    version = "8.0.302"
+    uri = "https://cdn.azul.com/zulu/bin/zulu8.58.0.13-ca-jre8.0.312-linux_x64.tar.gz"
+    version = "8.0.312"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
