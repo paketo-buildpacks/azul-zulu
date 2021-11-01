@@ -45,20 +45,6 @@ dependencies:
   with:
     type:    headfull
     version: "11"
-- name:            JDK 16
-  id:              jdk
-  version_pattern: "16\\.[\\d]+\\.[\\d]+"
-  uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
-  with:
-    type:    jdk
-    version: "16"
-- name:            JRE 16
-  id:              jre
-  version_pattern: "16\\.[\\d]+\\.[\\d]+"
-  uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
-  with:
-    type:    headfull
-    version: "16"
 - name:            JDK 17
   id:              jdk
   version_pattern: "17\\.[\\d]+\\.[\\d]+"
