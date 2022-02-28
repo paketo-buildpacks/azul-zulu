@@ -1,4 +1,4 @@
-module github.com/paketo-buildpacks/azul-zulu
+module github.com/paketo-buildpacks/azul-zulu/v9
 
 go 1.17
 
