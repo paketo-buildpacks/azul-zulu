@@ -214,11 +214,11 @@ api = "0.7"
     cpes = ["cpe:2.3:a:oracle:jdk:18.0.0:*:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:18.0.0:*:*:*:*:*:*:*"]
     id = "jdk"
     name = "Azul Zulu JDK"
-    purl = "pkg:generic/azul-zulu-jdk@18.0.0?arch=amd64"
-    sha256 = "959a94ca4097dcaabc7886784cec10dfdf2b0a3bff890ea8943cc09c5fff29cb"
+    purl = "pkg:generic/azul-zulu-jdk@18.0.322?arch=amd64"
+    sha256 = "69cac729f07a383aa96e54a669715b3b488130abf8395db1c66cdf82dcbcd54e"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu18.28.13-ca-jdk18.0.0-linux_x64.tar.gz"
-    version = "18.0.0"
+    uri = "https://cdn.azul.com/zulu/bin/zulu8.60.0.21-ca-jdk8.0.322-linux_x64.tar.gz"
+    version = "8.0.322"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
