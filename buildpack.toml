@@ -185,9 +185,9 @@ api = "0.7"
     id = "jre"
     name = "Azul Zulu JRE"
     purl = "pkg:generic/azul-zulu-jre@11.0.16?arch=amd64"
-    sha256 = "42c5533cb579e96de456ce7fcabbc64c08bc15f029cf122bc1c436cb8bc35eab"
+    sha256 = "a9ce9340577c18b3fc27f27a6afce89aa4516857652e92013eabe26ce6cfc600"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu11.58.15-ca-jre11.0.16-linux_x64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu11.58.23-ca-jre11.0.16.1-linux_x64.tar.gz"
     version = "11.0.16"
 
     [[metadata.dependencies.licenses]]
