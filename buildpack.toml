@@ -19,7 +19,7 @@ api = "0.7"
   homepage = "https://github.com/paketo-buildpacks/azul-zulu"
   id = "paketo-buildpacks/azul-zulu"
   keywords = ["java", "jvm", "jre", "jdk"]
-  name = "Paketo Azul Zulu Buildpack"
+  name = "Paketo Buildpack for Azul Zulu"
   sbom-formats = ["application/vnd.syft+json", "application/vnd.cyclonedx+json"]
   version = "{{.version}}"
 
