@@ -1,6 +1,6 @@
 # `gcr.io/paketo-buildpacks/azul-zulu`
 
-The Paketo Azul Zulu Buildpack is a Cloud Native Buildpack that provides the Azul Zulu implementations of JREs and JDKs.
+The Paketo Buildpack for Azul Zulu is a Cloud Native Buildpack that provides the Azul Zulu implementations of JREs and JDKs.
 
 This buildpack is designed to work in collaboration with other buildpacks which request contributions of JREs and JDKs.
 
