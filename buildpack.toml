@@ -250,6 +250,34 @@ api = "0.7"
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
+  [[metadata.dependencies]]
+    cpes = ["cpe:2.3:a:oracle:jdk:19.0.0:*:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:19.0.0:*:*:*:*:*:*:*"]
+    id = "jdk"
+    name = "Azul Zulu JDK"
+    purl = "pkg:generic/azul-zulu-jdk@19.0.0?arch=amd64"
+    sha256 = "6813da339124261092daab369a1c60dea5f27f4ba9608a16517191d30511a087"
+    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    uri = "https://cdn.azul.com/zulu/bin/zulu19.28.81-ca-jdk19.0.0-linux_x64.tar.gz"
+    version = "19.0.0"
+
+    [[metadata.dependencies.licenses]]
+      type = "GPL-2.0 WITH Classpath-exception-2.0"
+      uri = "https://openjdk.java.net/legal/gplv2+ce.html"
+
+  [[metadata.dependencies]]
+    cpes = ["cpe:2.3:a:oracle:jre:19.0.0:*:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:19.0.0:*:*:*:*:*:*:*"]
+    id = "jre"
+    name = "Azul Zulu JRE"
+    purl = "pkg:generic/azul-zulu-jre@19.0.0?arch=amd64"
+    sha256 = "06814059b86f79f4ba3dcdf7c42b45cb77899197210540137a4aceac727cce5b"
+    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    uri = "https://cdn.azul.com/zulu/bin/zulu19.28.81-ca-jre19.0.0-linux_x64.tar.gz"
+    version = "19.0.0"
+
+    [[metadata.dependencies.licenses]]
+      type = "GPL-2.0 WITH Classpath-exception-2.0"
+      uri = "https://openjdk.java.net/legal/gplv2+ce.html"
+
 [[stacks]]
   id = "io.buildpacks.stacks.bionic"
 

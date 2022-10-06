@@ -75,3 +75,17 @@ dependencies:
   with:
     type:    headfull
     version: "18"
+- name:            JDK 19
+  id:              jdk
+  version_pattern: "19\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
+  with:
+    type:    jdk
+    version: "19"
+- name:            JRE 19
+  id:              jre
+  version_pattern: "19\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
+  with:
+    type:    headfull
+    version: "19"
