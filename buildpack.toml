@@ -181,14 +181,14 @@ api = "0.7"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jre:11.0.18:*:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:11.0.18:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jre:11.0.19:*:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:11.0.19:*:*:*:*:*:*:*"]
     id = "jre"
     name = "Azul Zulu JRE"
-    purl = "pkg:generic/azul-zulu-jre@11.0.18?arch=amd64"
-    sha256 = "682e5dbacfb17f3dc2283ba8d9df7850af7c6a5f98c3dd1bdbb2ae18b1068696"
+    purl = "pkg:generic/azul-zulu-jre@11.0.19?arch=amd64"
+    sha256 = "fc0ac023f15425e2543d7c4b94067760fcecfb39c008236bfb466cab3eb9ba11"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu11.62.17-ca-jre11.0.18-linux_x64.tar.gz"
-    version = "11.0.18"
+    uri = "https://cdn.azul.com/zulu/bin/zulu11.64.19-ca-jre11.0.19-linux_x64.tar.gz"
+    version = "11.0.19"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
@@ -209,14 +209,14 @@ api = "0.7"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jre:17.0.6:*:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:17.0.6:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jre:17.0.7:*:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:17.0.7:*:*:*:*:*:*:*"]
     id = "jre"
     name = "Azul Zulu JRE"
-    purl = "pkg:generic/azul-zulu-jre@17.0.6?arch=amd64"
-    sha256 = "f7d0b221dda67fc063beb3549626cf8d6769591d46fd367202ba53fd8e052d41"
+    purl = "pkg:generic/azul-zulu-jre@17.0.7?arch=amd64"
+    sha256 = "1ebe0362967f0199672e4424a7b5c977185d48e94fbbbd06e54e88b2d75f6cbf"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu17.40.19-ca-jre17.0.6-linux_x64.tar.gz"
-    version = "17.0.6"
+    uri = "https://cdn.azul.com/zulu/bin/zulu17.42.19-ca-jre17.0.7-linux_x64.tar.gz"
+    version = "17.0.7"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
