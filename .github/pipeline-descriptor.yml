@@ -34,7 +34,7 @@ dependencies:
   cpe_pattern:     "update[\\d]+"
   uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
   with:
-    type:    headfull
+    type:    jre
     version: "8"
 - name:            JDK 11
   id:              jdk
@@ -48,7 +48,7 @@ dependencies:
   version_pattern: "11\\.[\\d]+\\.[\\d]+"
   uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
   with:
-    type:    headfull
+    type:    jre
     version: "11"
 - name:            JDK 17
   id:              jdk
@@ -62,7 +62,7 @@ dependencies:
   version_pattern: "17\\.[\\d]+\\.[\\d]+"
   uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
   with:
-    type:    headfull
+    type:    jre
     version: "17"
 - name:            JDK 20
   id:              jdk
@@ -76,5 +76,5 @@ dependencies:
   version_pattern: "20\\.[\\d]+\\.[\\d]+"
   uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
   with:
-    type:    headfull
+    type:    jre
     version: "20"
