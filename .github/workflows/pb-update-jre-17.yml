@@ -44,7 +44,7 @@ jobs:
             - id: dependency
               uses: docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
               with:
-                type: headfull
+                type: jre
                 version: "17"
             - name: Update Buildpack Dependency
               id: buildpack
