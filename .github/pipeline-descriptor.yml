@@ -64,17 +64,17 @@ dependencies:
   with:
     type:    jre
     version: "17"
-- name:            JDK 20
+- name:            JDK 21
   id:              jdk
-  version_pattern: "20\\.[\\d]+\\.[\\d]+"
+  version_pattern: "21\\.[\\d]+\\.[\\d]+"
   uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
   with:
     type:    jdk
-    version: "20"
-- name:            JRE 20
+    version: "21"
+- name:            JRE 21
   id:              jre
-  version_pattern: "20\\.[\\d]+\\.[\\d]+"
+  version_pattern: "21\\.[\\d]+\\.[\\d]+"
   uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
   with:
     type:    jre
-    version: "20"
+    version: "21"
