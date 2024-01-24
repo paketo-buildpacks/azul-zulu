@@ -156,7 +156,7 @@ api = "0.7"
     cpes = ["cpe:2.3:a:oracle:jre:1.8.0:update402:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:1.8.0:update402:*:*:*:*:*:*"]
     id = "jre"
     name = "Azul Zulu JRE"
-    purl = "pkg:generic/azul-zulu-jre@8.0.392?arch=amd64"
+    purl = "pkg:generic/azul-zulu-jre@8.0.402?arch=amd64"
     sha256 = "a9bd2cdf8c03a7e6e139d594c8a94c6dc9721bf3da55286144d4afbf9a063335"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
     uri = "https://cdn.azul.com/zulu/bin/zulu8.76.0.17-ca-jre8.0.402-linux_x64.tar.gz"
