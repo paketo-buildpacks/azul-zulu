@@ -250,6 +250,34 @@ api = "0.7"
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
+  [[metadata.dependencies]]
+    cpes = ["cpe:2.3:a:oracle:jdk:22.0.0:*:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:22.0.0:*:*:*:*:*:*:*"]
+    id = "jdk"
+    name = "Azul Zulu JDK"
+    purl = "pkg:generic/azul-zulu-jdk@22.0.0?arch=amd64"
+    sha256 = ""
+    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    uri = "https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jdk22.0.0-linux_x64.zip"
+    version = "22.0.0"
+
+    [[metadata.dependencies.licenses]]
+      type = "GPL-2.0 WITH Classpath-exception-2.0"
+      uri = "https://openjdk.java.net/legal/gplv2+ce.html"
+
+  [[metadata.dependencies]]
+    cpes = ["cpe:2.3:a:oracle:jre:22.0.0:*:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:22.0.0:*:*:*:*:*:*:*"]
+    id = "jre"
+    name = "Azul Zulu JRE"
+    purl = "pkg:generic/azul-zulu-jre@21.0.2?arch=amd64"
+    sha256 = ""
+    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    uri = "https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jre22.0.0-linux_x64.zip"
+    version = "22.0.0"
+
+    [[metadata.dependencies.licenses]]
+      type = "GPL-2.0 WITH Classpath-exception-2.0"
+      uri = "https://openjdk.java.net/legal/gplv2+ce.html"
+
 [[stacks]]
   id = "io.buildpacks.stacks.bionic"
 
