@@ -144,7 +144,7 @@ api = "0.7"
     name = "Azul Zulu JDK"
     purl = "pkg:generic/azul-zulu-jdk@8.0.402?arch=amd64"
     sha256 = "df80c8e8eed3f22a831ec5fadd2df193e04a0eef081d145636fb71a6c9d42449"
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    stacks = ["*"]
     uri = "https://cdn.azul.com/zulu/bin/zulu8.76.0.17-ca-jdk8.0.402-linux_x64.tar.gz"
     version = "8.0.402"
 
@@ -158,7 +158,7 @@ api = "0.7"
     name = "Azul Zulu JRE"
     purl = "pkg:generic/azul-zulu-jre@8.0.402?arch=amd64"
     sha256 = "a9bd2cdf8c03a7e6e139d594c8a94c6dc9721bf3da55286144d4afbf9a063335"
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    stacks = ["*"]
     uri = "https://cdn.azul.com/zulu/bin/zulu8.76.0.17-ca-jre8.0.402-linux_x64.tar.gz"
     version = "8.0.402"
 
@@ -172,7 +172,7 @@ api = "0.7"
     name = "Azul Zulu JDK"
     purl = "pkg:generic/azul-zulu-jdk@11.0.22?arch=amd64"
     sha256 = "578d5946b26d9257b78e82a1c28203e5bbd690de48e2016399b1274c3ee7a3c5"
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    stacks = ["*"]
     uri = "https://cdn.azul.com/zulu/bin/zulu11.70.15-ca-jdk11.0.22-linux_x64.tar.gz"
     version = "11.0.22"
 
@@ -186,7 +186,7 @@ api = "0.7"
     name = "Azul Zulu JRE"
     purl = "pkg:generic/azul-zulu-jre@11.0.22?arch=amd64"
     sha256 = "f26a1a272e2db2561e6cd2dfa7e4511790cd4a7b12933c57c1c6be7a8a92fe73"
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    stacks = ["*"]
     uri = "https://cdn.azul.com/zulu/bin/zulu11.70.15-ca-jre11.0.22-linux_x64.tar.gz"
     version = "11.0.22"
 
@@ -200,7 +200,7 @@ api = "0.7"
     name = "Azul Zulu JDK"
     purl = "pkg:generic/azul-zulu-jdk@17.0.10?arch=amd64"
     sha256 = "57284da1bd86d53abf582293d20d18fff7fe243da15a08fa414f6275fbd48fe2"
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    stacks = ["*"]
     uri = "https://cdn.azul.com/zulu/bin/zulu17.48.15-ca-jdk17.0.10-linux_x64.tar.gz"
     version = "17.0.10"
 
@@ -214,7 +214,7 @@ api = "0.7"
     name = "Azul Zulu JRE"
     purl = "pkg:generic/azul-zulu-jre@17.0.10?arch=amd64"
     sha256 = "bef933630ccc860ff2eb297ead180ce52fd498a3cb980c6965d0b3416b77c5cb"
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    stacks = ["*"]
     uri = "https://cdn.azul.com/zulu/bin/zulu17.48.15-ca-jre17.0.10-linux_x64.tar.gz"
     version = "17.0.10"
 
@@ -228,7 +228,7 @@ api = "0.7"
     name = "Azul Zulu JDK"
     purl = "pkg:generic/azul-zulu-jdk@21.0.2?arch=amd64"
     sha256 = "5ad730fbee6bb49bfff10bf39e84392e728d89103d3474a7e5def0fd134b300a"
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    stacks = ["*"]
     uri = "https://cdn.azul.com/zulu/bin/zulu21.32.17-ca-jdk21.0.2-linux_x64.tar.gz"
     version = "21.0.2"
 
@@ -242,7 +242,7 @@ api = "0.7"
     name = "Azul Zulu JRE"
     purl = "pkg:generic/azul-zulu-jre@21.0.2?arch=amd64"
     sha256 = "5533b05a58dfe281f7e085ca2dba1b427f6e3ce854d44fd81c5d2a319447299b"
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    stacks = ["*"]
     uri = "https://cdn.azul.com/zulu/bin/zulu21.32.17-ca-jre21.0.2-linux_x64.tar.gz"
     version = "21.0.2"
 
@@ -255,8 +255,8 @@ api = "0.7"
     id = "jdk"
     name = "Azul Zulu JDK"
     purl = "pkg:generic/azul-zulu-jdk@22.0.0?arch=amd64"
-    sha256 = ""
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    sha256 = "9923350319718e196b18ad6d8dc8a2d1e4753cf56323ed617e0c436dd0a46c12"
+    stacks = ["*"]
     uri = "https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jdk22.0.0-linux_x64.zip"
     version = "22.0.0"
 
@@ -269,20 +269,14 @@ api = "0.7"
     id = "jre"
     name = "Azul Zulu JRE"
     purl = "pkg:generic/azul-zulu-jre@21.0.2?arch=amd64"
-    sha256 = ""
-    stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
+    sha256 = "989b19cacfa6312f5bf25f9bfff3bb0efc5ec30aacb1bda3a30063d06aff7747"
+    stacks = ["*"]
     uri = "https://cdn.azul.com/zulu/bin/zulu22.28.91-ca-jre22.0.0-linux_x64.zip"
     version = "22.0.0"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
-
-[[stacks]]
-  id = "io.buildpacks.stacks.bionic"
-
-[[stacks]]
-  id = "io.paketo.stacks.tiny"
 
 [[stacks]]
   id = "*"
