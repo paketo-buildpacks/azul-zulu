@@ -78,3 +78,17 @@ dependencies:
   with:
     type:    jre
     version: "21"
+- name:            JDK 22
+  id:              jdk
+  version_pattern: "22\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
+  with:
+    type:    jdk
+    version: "22"
+- name:            JRE 22
+  id:              jre
+  version_pattern: "22\\.[\\d]+\\.[\\d]+"
+  uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
+  with:
+    type:    jre
+    version: "22"
