@@ -367,7 +367,7 @@ api = "0.7"
     id = "jdk"
     name = "Azul Zulu JDK"
     purl = "pkg:generic/azul-zulu-jdk@21.0.3?arch=arm64"
-    sha256 = "blank"
+    sha256 = "c898d4ce365c8926e22859c06be4a81bafb9fd0126088867e15a528fe99b1599"
     stacks = ["*"]
     uri = "https://cdn.azul.com/zulu/bin/zulu21.34.19-ca-jdk21.0.3-linux_aarch64.tar.gz"
     version = "21.0.3"
