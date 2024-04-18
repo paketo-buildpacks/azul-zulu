@@ -283,7 +283,7 @@ api = "0.7"
     id = "jdk"
     name = "Azul Zulu JDK"
     purl = "pkg:generic/azul-zulu-jdk@8.0.402?arch=arm64"
-    sha256 = "blank"
+    sha256 = "82c46c65d57e187ef68fdd125ef760eaeb52ebfe1be1a6a251cf5b43cbebc78a"
     stacks = ["*"]
     uri = "https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jdk8.0.412-linux_aarch64.tar.gz"
     version = "8.0.412"
