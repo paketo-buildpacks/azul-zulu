@@ -106,6 +106,7 @@ dependencies:
   with:
     type:    jdk
     version: "8"
+    arch: "arm64"
 - name:            JRE 8 ARM64
   id:              jre
   version_pattern: "^8\\.[\\d]+\\.[\\d]+"
@@ -114,6 +115,7 @@ dependencies:
   with:
     type:    jre
     version: "8"
+    arch: "arm64"
 - name:            JDK 11 ARM64
   id:              jdk
   version_pattern: "11\\.[\\d]+\\.[\\d]+"
@@ -121,6 +123,7 @@ dependencies:
   with:
     type:    jdk
     version: "11"
+    arch: "arm64"
 - name:            JRE 11 ARM64
   id:              jre
   version_pattern: "11\\.[\\d]+\\.[\\d]+"
@@ -128,6 +131,7 @@ dependencies:
   with:
     type:    jre
     version: "11"
+    arch: "arm64"
 - name:            JDK 17 ARM64
   id:              jdk
   version_pattern: "17\\.[\\d]+\\.[\\d]+"
@@ -135,6 +139,7 @@ dependencies:
   with:
     type:    jdk
     version: "17"
+    arch: "arm64"
 - name:            JRE 17 ARM64
   id:              jre
   version_pattern: "17\\.[\\d]+\\.[\\d]+"
@@ -142,6 +147,7 @@ dependencies:
   with:
     type:    jre
     version: "17"
+    arch: "arm64"
 - name:            JDK 21 ARM64
   id:              jdk
   version_pattern: "21\\.[\\d]+\\.[\\d]+"
@@ -149,6 +155,7 @@ dependencies:
   with:
     type:    jdk
     version: "21"
+    arch: "arm64"
 - name:            JRE 21 ARM64
   id:              jre
   version_pattern: "21\\.[\\d]+\\.[\\d]+"
@@ -156,6 +163,7 @@ dependencies:
   with:
     type:    jre
     version: "21"
+    arch: "arm64"
 - name:            JDK 22 ARM64
   id:              jdk
   version_pattern: "22\\.[\\d]+\\.[\\d]+"
@@ -163,6 +171,7 @@ dependencies:
   with:
     type:    jdk
     version: "22"
+    arch: "arm64"
 - name:            JRE 22 ARM64
   id:              jre
   version_pattern: "22\\.[\\d]+\\.[\\d]+"
@@ -170,3 +179,4 @@ dependencies:
   with:
     type:    jre
     version: "22"
+    arch: "arm64"
