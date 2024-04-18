@@ -409,7 +409,7 @@ api = "0.7"
     id = "jre"
     name = "Azul Zulu JRE"
     purl = "pkg:generic/azul-zulu-jre@21.0.2?arch=arm64"
-    sha256 = "blank"
+    sha256 = "a7d2456d0ee6d33a411007f77a505ec9427c0e7a60bcb1e5957763e08c69a6be"
     stacks = ["*"]
     uri = "https://cdn.azul.com/zulu/bin/zulu22.30.13-ca-jre22.0.1-linux_aarch64.tar.gz"
     version = "22.0.1"
