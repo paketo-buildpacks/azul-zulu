@@ -142,7 +142,7 @@ api = "0.7"
     cpes = ["cpe:2.3:a:oracle:jdk:1.8.0:update422:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:1.8.0:update422:*:*:*:*:*:*"]
     id = "jdk"
     name = "Azul Zulu JDK"
-    purl = "pkg:generic/azul-zulu-jdk@8.0.402?arch=amd64"
+    purl = "pkg:generic/azul-zulu-jdk@8.0.422?arch=amd64"
     sha256 = "60dc6734e16f4dcd12de3b78177511122db5f7a5bbc12066c2278d265eea6a6a"
     stacks = ["*"]
     uri = "https://cdn.azul.com/zulu/bin/zulu8.80.0.17-ca-jdk8.0.422-linux_x64.tar.gz"
