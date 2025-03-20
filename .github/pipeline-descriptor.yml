@@ -81,20 +81,20 @@ dependencies:
   with:
     type:    jre
     version: "21"
-- name:            JDK 23
+- name:            JDK 24
   id:              jdk
-  version_pattern: "23\\.[\\d]+\\.[\\d]+"
+  version_pattern: "24\\.[\\d]+\\.[\\d]+"
   uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
   with:
     type:    jdk
-    version: "23"
-- name:            JRE 23
+    version: "24"
+- name:            JRE 24
   id:              jre
-  version_pattern: "23\\.[\\d]+\\.[\\d]+"
+  version_pattern: "24\\.[\\d]+\\.[\\d]+"
   uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
   with:
     type:    jre
-    version: "23"
+    version: "24"
 
 
 # ARM64
@@ -164,19 +164,19 @@ dependencies:
     type:    jre
     version: "21"
     arch: "arm64"
-- name:            JDK 23 ARM64
+- name:            JDK 24 ARM64
   id:              jdk
-  version_pattern: "23\\.[\\d]+\\.[\\d]+"
+  version_pattern: "24\\.[\\d]+\\.[\\d]+"
   uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
   with:
     type:    jdk
-    version: "23"
+    version: "24"
     arch: "arm64"
-- name:            JRE 23 ARM64
+- name:            JRE 24 ARM64
   id:              jre
-  version_pattern: "23\\.[\\d]+\\.[\\d]+"
+  version_pattern: "24\\.[\\d]+\\.[\\d]+"
   uses:            docker://ghcr.io/paketo-buildpacks/actions/azul-zulu-dependency:main
   with:
     type:    jre
-    version: "23"
+    version: "24"
     arch: "arm64"
