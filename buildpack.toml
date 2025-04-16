@@ -139,14 +139,14 @@ api = "0.7"
     name = "JAVA_TOOL_OPTIONS"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:1.8.0:update442:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:1.8.0:update442:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jdk:1.8.0:update452:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:1.8.0:update452:*:*:*:*:*:*"]
     id = "jdk"
     name = "Azul Zulu JDK"
     purl = "pkg:generic/azul-zulu-jdk@8.0.422?arch=amd64"
-    sha256 = "6e3bd4d911e6eb2d14e0b48e622b6909c76add0b51c51d11f5c2c3d2a045bcf3"
+    sha256 = "948a5a0fa660ab0d47c2084408a4a84e9fbb422fd64b2553fdafc04f9ee3c583"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu8.84.0.15-ca-jdk8.0.442-linux_x64.tar.gz"
-    version = "8.0.442"
+    uri = "https://cdn.azul.com/zulu/bin/zulu8.86.0.25-ca-jdk8.0.452-linux_x64.tar.gz"
+    version = "8.0.452"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
