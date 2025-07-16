@@ -391,14 +391,14 @@ api = "0.7"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jre:21.0.7:*:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:21.0.7:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jre:21.0.8:*:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:21.0.8:*:*:*:*:*:*:*"]
     id = "jre"
     name = "Azul Zulu JRE"
-    purl = "pkg:generic/azul-zulu-jre@21.0.7?arch=arm64"
-    sha256 = "9f797b6abe1c5e46361207db95b9108d7e1d68d200c78ce6621a7ac63868683a"
+    purl = "pkg:generic/azul-zulu-jre@21.0.8?arch=arm64"
+    sha256 = "1c37817d821a4ed8e4fb015809d71c1f651c15dadcc6b62e61b58bccb3145a78"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu21.42.19-ca-jre21.0.7-linux_aarch64.tar.gz"
-    version = "21.0.7"
+    uri = "https://cdn.azul.com/zulu/bin/zulu21.44.17-ca-jre21.0.8-linux_aarch64.tar.gz"
+    version = "21.0.8"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
