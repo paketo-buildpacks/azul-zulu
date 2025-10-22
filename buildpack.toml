@@ -310,7 +310,7 @@ api = "0.7"
     cpes = ["cpe:2.3:a:oracle:jre:1.8.0:update472:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:1.8.0:update472:*:*:*:*:*:*"]
     id = "jre"
     name = "Azul Zulu JRE"
-    purl = "pkg:generic/azul-zulu-jre@8.0.422?arch=arm64"
+    purl = "pkg:generic/azul-zulu-jre@8.0.472?arch=arm64"
     sha256 = "8fa66aeebdb47f3b9cd0a1cf5486c0d90cf5f4f67194e28179fa87726a4b8e1f"
     stacks = ["*"]
     uri = "https://cdn.azul.com/zulu/bin/zulu8.90.0.19-ca-jre8.0.472-linux_aarch64.tar.gz"
