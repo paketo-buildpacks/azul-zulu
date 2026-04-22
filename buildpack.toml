@@ -251,14 +251,14 @@ api = "0.7"
       uri = "https://openjdk.java.net/legal/gplv2+ce.html"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:oracle:jdk:25.0.2:*:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:25.0.2:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:oracle:jdk:25.0.3:*:*:*:*:*:*:*", "cpe:2.3:a:azul:zulu:25.0.3:*:*:*:*:*:*:*"]
     id = "jdk"
     name = "Azul Zulu JDK"
-    purl = "pkg:generic/azul-zulu-jdk@25.0.2?arch=amd64"
-    sha256 = "946ad9766d98fc6ab495a1a120072197db54997f6925fb96680f1ecd5591db4e"
+    purl = "pkg:generic/azul-zulu-jdk@25.0.3?arch=amd64"
+    sha256 = "3a93235f4e5b313232647916219e91dc5cca0b9835c9b52a404ba58c43571697"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu25.32.21-ca-jdk25.0.2-linux_x64.tar.gz"
-    version = "25.0.2"
+    uri = "https://cdn.azul.com/zulu/bin/zulu25.34.17-ca-jdk25.0.3-linux_x64.tar.gz"
+    version = "25.0.3"
 
     [[metadata.dependencies.licenses]]
       type = "GPL-2.0 WITH Classpath-exception-2.0"
