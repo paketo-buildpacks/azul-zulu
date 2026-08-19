@@ -199,9 +199,9 @@ api = "0.7"
     id = "jdk"
     name = "Azul Zulu JDK"
     purl = "pkg:generic/azul-zulu-jdk@17.0.20?arch=amd64"
-    sha256 = "32c5efedf69f4a95635ea2923f6a6ee90ce6ca83df0bd43ba55dd662d5af429a"
+    sha256 = "4ef843383724c7cee278b90aabe41c9ae172a3b2584ab0e086857bb536ef060f"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu17.68.17-ca-jdk17.0.20-linux_x64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu17.68.203-ca-jdk17.0.20.1-linux_x64.tar.gz"
     version = "17.0.20"
 
     [[metadata.dependencies.licenses]]
