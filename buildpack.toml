@@ -409,9 +409,9 @@ api = "0.7"
     id = "jre"
     name = "Azul Zulu JRE"
     purl = "pkg:generic/azul-zulu-jre@21.0.13?arch=arm64"
-    sha256 = "3f4649159c0780bfb4c66b73f17f784830e1cbc0b79698a2b235bd7fe18dea25"
+    sha256 = "e01ff9d096967f8814edca90e778550a1a68ab8fbde7494478edf3a6ac330f00"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu21.54.107-ca-jre21.0.13-linux_aarch64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jre21.0.13.0.3-linux_aarch64.tar.gz"
     version = "21.0.13"
 
     [[metadata.dependencies.licenses]]
