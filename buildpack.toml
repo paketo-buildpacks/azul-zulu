@@ -199,9 +199,9 @@ api = "0.7"
     id = "jdk"
     name = "Azul Zulu JDK"
     purl = "pkg:generic/azul-zulu-jdk@17.0.21?arch=amd64"
-    sha256 = "81946095839140100ebff36ff52007676e260bbe482675dbc04772595ed94390"
+    sha256 = "2837aee74267e02106ee6006809bb0de23ccfa43bf5005621517194b79975695"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jdk17.0.21.0.3-linux_x64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu17.70.201-ca-jdk17.0.21.1-linux_x64.tar.gz"
     version = "17.0.21"
 
     [[metadata.dependencies.licenses]]
@@ -213,9 +213,9 @@ api = "0.7"
     id = "jre"
     name = "Azul Zulu JRE"
     purl = "pkg:generic/azul-zulu-jre@17.0.21?arch=amd64"
-    sha256 = "1921269ee6866125deebf04c8de8c05a6e7810f7cd0ad723e02c2990288e1757"
+    sha256 = "1e4637d81dabcca728cf8a2dd94bd081eb232fe941b4773ddddea2893fbd163a"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jre17.0.21.0.3-linux_x64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu17.70.201-ca-jre17.0.21.1-linux_x64.tar.gz"
     version = "17.0.21"
 
     [[metadata.dependencies.licenses]]
@@ -227,9 +227,9 @@ api = "0.7"
     id = "jdk"
     name = "Azul Zulu JDK"
     purl = "pkg:generic/azul-zulu-jdk@21.0.13?arch=amd64"
-    sha256 = "abe544103f1c4f0cc4b8997c0cac847eb1e842382eef57ce361c982fb0a3de11"
+    sha256 = "510696f7da795e08b48432268173b060a49a6a3b05430690e776b5f3ddecac5e"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jdk21.0.13.0.3-linux_x64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu21.54.201-ca-jdk21.0.13.1-linux_x64.tar.gz"
     version = "21.0.13"
 
     [[metadata.dependencies.licenses]]
@@ -241,9 +241,9 @@ api = "0.7"
     id = "jre"
     name = "Azul Zulu JRE"
     purl = "pkg:generic/azul-zulu-jre@21.0.13?arch=amd64"
-    sha256 = "250b9d7cdce91f88455fc3528aae4f46b4a516ed74676bbf51448eacc591e601"
+    sha256 = "f38eaca721b30cf779c745999b8320aa4ac5660c261a6b87bd7b953d1b59f63b"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jre21.0.13.0.3-linux_x64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu21.54.201-ca-jre21.0.13.1-linux_x64.tar.gz"
     version = "21.0.13"
 
     [[metadata.dependencies.licenses]]
@@ -255,9 +255,9 @@ api = "0.7"
     id = "jdk"
     name = "Azul Zulu JDK"
     purl = "pkg:generic/azul-zulu-jdk@25.0.5?arch=amd64"
-    sha256 = "bb633b566fd501911a850d604d7d3abdfee657a88f2bbacb12e5ebc34727356f"
+    sha256 = "fc7a3d9396b443134666b9cf7cd946b532dc1781f5350c725849ac50d16a7198"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu25.38.109-ca-jdk25.0.5.0.3-linux_x64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu25.38.201-ca-jdk25.0.5.1-linux_x64.tar.gz"
     version = "25.0.5"
 
     [[metadata.dependencies.licenses]]
@@ -269,9 +269,9 @@ api = "0.7"
     id = "jre"
     name = "Azul Zulu JRE"
     purl = "pkg:generic/azul-zulu-jre@25.0.5?arch=amd64"
-    sha256 = "740a9a3ed6b60de7ae2c22633f122147572024c1a66663f69aa7672ec48c4b09"
+    sha256 = "12277af4957cd249dc7aa50017ddde967a826fa48971b2411752fefe48e5ca8b"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu25.38.109-ca-jre25.0.5.0.3-linux_x64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu25.38.201-ca-jre25.0.5.1-linux_x64.tar.gz"
     version = "25.0.5"
 
     [[metadata.dependencies.licenses]]
@@ -283,9 +283,9 @@ api = "0.7"
     id = "jdk"
     name = "Azul Zulu JDK"
     purl = "pkg:generic/azul-zulu-jdk@27.0.1?arch=amd64"
-    sha256 = "c128817926e4eebb30868b6ba082028f493afa716e459e34049bde0ab49a9829"
+    sha256 = "c4d7bf4c80a21e935187ecdcb111e4b2f14e1fdd18364974fe7f7da54b12bea0"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu27.30.109-ca-jdk27.0.1.0.3-linux_x64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu27.30.201-ca-jdk27.0.1.1-linux_x64.tar.gz"
     version = "27.0.1"
 
     [[metadata.dependencies.licenses]]
@@ -297,9 +297,9 @@ api = "0.7"
     id = "jre"
     name = "Azul Zulu JRE"
     purl = "pkg:generic/azul-zulu-jre@27.0.1?arch=amd64"
-    sha256 = "0c828bc4419042a36439fd3a3ba2d13565443d4dcf37431d035d15913f40bab2"
+    sha256 = "7e3c1bda11bfa309829220119170336eae8b0da09fba56281888cc1f3e01b2f8"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu27.30.109-ca-jre27.0.1.0.3-linux_x64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu27.30.201-ca-jre27.0.1.1-linux_x64.tar.gz"
     version = "27.0.1"
 
     [[metadata.dependencies.licenses]]
@@ -367,9 +367,9 @@ api = "0.7"
     id = "jdk"
     name = "Azul Zulu JDK"
     purl = "pkg:generic/azul-zulu-jdk@17.0.21?arch=arm64"
-    sha256 = "8a32c57a101b29fb2e31dd935709517d2a1117d4e696f13ff5035c665ac1d034"
+    sha256 = "bf8a41fb9d469e6d645cd64d9bd4726a35d496ff821e812c42046e6fe77b4587"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jdk17.0.21.0.3-linux_aarch64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu17.70.201-ca-jdk17.0.21.1-linux_aarch64.tar.gz"
     version = "17.0.21"
 
     [[metadata.dependencies.licenses]]
@@ -381,9 +381,9 @@ api = "0.7"
     id = "jre"
     name = "Azul Zulu JRE"
     purl = "pkg:generic/azul-zulu-jre@17.0.21?arch=arm64"
-    sha256 = "35f87569d36db2c4245ab49309b1e3f2c2cc279b07cc15140aabd9239015a23f"
+    sha256 = "03489b3d69690141d61ff848f7be81d0ac7ded5e6648b393a588b00c80769efc"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu17.70.113-ca-jre17.0.21.0.3-linux_aarch64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu17.70.201-ca-jre17.0.21.1-linux_aarch64.tar.gz"
     version = "17.0.21"
 
     [[metadata.dependencies.licenses]]
@@ -395,9 +395,9 @@ api = "0.7"
     id = "jdk"
     name = "Azul Zulu JDK"
     purl = "pkg:generic/azul-zulu-jdk@21.0.13?arch=arm64"
-    sha256 = "eb6b89b23b9eb5661b29a4e8c09e8e91952cbdfa87045d36e9078e37388c2dc3"
+    sha256 = "7a4683412f5eeee90261ac7eda8d7a96076d794656cb5078d8f0fb38bf2db554"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jdk21.0.13.0.3-linux_aarch64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu21.54.201-ca-jdk21.0.13.1-linux_aarch64.tar.gz"
     version = "21.0.13"
 
     [[metadata.dependencies.licenses]]
@@ -409,9 +409,9 @@ api = "0.7"
     id = "jre"
     name = "Azul Zulu JRE"
     purl = "pkg:generic/azul-zulu-jre@21.0.13?arch=arm64"
-    sha256 = "e01ff9d096967f8814edca90e778550a1a68ab8fbde7494478edf3a6ac330f00"
+    sha256 = "b57818391fb10a7afe5f636fac1bc8644cdd998230bf3d94538456d7e781493b"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jre21.0.13.0.3-linux_aarch64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu21.54.201-ca-jre21.0.13.1-linux_aarch64.tar.gz"
     version = "21.0.13"
 
     [[metadata.dependencies.licenses]]
@@ -423,9 +423,9 @@ api = "0.7"
     id = "jdk"
     name = "Azul Zulu JDK"
     purl = "pkg:generic/azul-zulu-jdk@25.0.5?arch=arm64"
-    sha256 = "6d773a4ed04d54eca6f0b8aa9d8829cdf7f5661024b6ac48ea155ab6b4ec9721"
+    sha256 = "7f0c356813de315dbac44d1a2a2d61a5cab9d6ac8f2cdff6e32c994be5c02da1"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu25.38.109-ca-jdk25.0.5.0.3-linux_aarch64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu25.38.201-ca-jdk25.0.5.1-linux_aarch64.tar.gz"
     version = "25.0.5"
 
     [[metadata.dependencies.licenses]]
@@ -437,9 +437,9 @@ api = "0.7"
     id = "jre"
     name = "Azul Zulu JRE"
     purl = "pkg:generic/azul-zulu-jre@25.0.5?arch=arm64"
-    sha256 = "604d65f811f942d49099b7c1c1b865ff8b700d51299be0afffa24447a033b866"
+    sha256 = "164c7293bc17dcd21e56f84778cacfe57501a66c7ad3265b7f9f36c4cd9ec1e0"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu25.38.109-ca-jre25.0.5.0.3-linux_aarch64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu25.38.201-ca-jre25.0.5.1-linux_aarch64.tar.gz"
     version = "25.0.5"
 
     [[metadata.dependencies.licenses]]
@@ -451,9 +451,9 @@ api = "0.7"
     id = "jdk"
     name = "Azul Zulu JDK"
     purl = "pkg:generic/azul-zulu-jdk@27.0.1?arch=arm64"
-    sha256 = "4b4d2fb4a6bff5fa4d3a1f22ac5933c87d83e41d5f78bcd88df878326342d507"
+    sha256 = "18875b92ad2535230a13175f718933f7cc0593b4affa2dab442815ec245dacbb"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu27.30.109-ca-jdk27.0.1.0.3-linux_aarch64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu27.30.201-ca-jdk27.0.1.1-linux_aarch64.tar.gz"
     version = "27.0.1"
 
     [[metadata.dependencies.licenses]]
@@ -465,9 +465,9 @@ api = "0.7"
     id = "jre"
     name = "Azul Zulu JRE"
     purl = "pkg:generic/azul-zulu-jre@27.0.1?arch=arm64"
-    sha256 = "9e958bff107998b6ed41e7b756e2cfb0fd0f77d2a00d060e2e4348701dadee1b"
+    sha256 = "2d6713ef9294766ee39bb6c36cabe74f3b12af6e6304e46f16ace54453f3ca1e"
     stacks = ["*"]
-    uri = "https://cdn.azul.com/zulu/bin/zulu27.30.109-ca-jre27.0.1.0.3-linux_aarch64.tar.gz"
+    uri = "https://cdn.azul.com/zulu/bin/zulu27.30.201-ca-jre27.0.1.1-linux_aarch64.tar.gz"
     version = "27.0.1"
 
     [[metadata.dependencies.licenses]]
